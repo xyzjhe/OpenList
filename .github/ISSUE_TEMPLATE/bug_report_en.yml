@@ -66,20 +66,8 @@ body:
       label: Logs (optional)
       description: |
         Please copy and paste any relevant log output or screenshots. (You may mask sensitive fields)
-  - type: input
-    id: reproduction1
-    attributes:
-      label: Reproduction Link (optional)
-      description: |
-        Please provide a link to a repo or page that can reproduce this issue.
-  - type: input
-    id: reproduction2
-    attributes:
-      label: Reproduction Link (optional)
-      description: |
-        Please provide a link to a repo or page that can reproduce this issue.
-  - type: input
-    id: reproduction3
+  - type: textarea
+    id: reproduction
     attributes:
       label: Reproduction Link (optional)
       description: |
