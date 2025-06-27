@@ -1,5 +1,5 @@
-name: "Bug report"
-description: Bug report / Issue
+name: "Bug Report"
+description: Bug Report / Issue
 title: "[BUG] "
 labels: [bug]
 body:
