@@ -18,8 +18,10 @@ body:
       options:
         - label: |
             我已确认阅读并同意 [AGPL-3.0 第15条](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=15.%20Disclaimer%20of%20Warranty.) 。
+            本程序不提供任何明示或暗示的担保，使用风险由您自行承担。
         - label: |
             我已确认阅读并同意 [AGPL-3.0 第16条](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=16.%20Limitation%20of%20Liability.) 。
+            无论何种情况，版权持有人或其他分发者均不对使用本程序所造成的任何损失承担责任。
         - label: |
             我确认我的描述清晰，语法礼貌，能帮助开发者快速定位问题，并符合社区规则。
         - label: |
