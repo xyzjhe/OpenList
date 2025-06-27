@@ -1,5 +1,5 @@
 name: "Feature request"
-description: Feature request / 功能请求 / 增强
+description: Feature request
 title: "[Feature] "
 labels: [enhancement]
 body:
@@ -15,20 +15,18 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Description of the feature / 需求描述
+      label: Description of the feature
     validations:
       required: true
   - type: textarea
     id: suggested-solution
     attributes:
-      label: Suggested solution / 实现思路
+      label: Suggested solution
       description: |
         Solutions to achieve this requirement.
-        实现此需求的解决思路。
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional context / 附件
+      label: Additional context
       description: |
         Any other context or screenshots about the feature request here, or information you find helpful.
-        相关的任何其他上下文或截图，或者你觉得有帮助的信息

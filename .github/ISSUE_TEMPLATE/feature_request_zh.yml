@@ -1,0 +1,32 @@
+name: "功能请求"
+description: 功能请求 / 增强
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: checkboxes
+    attributes:
+      label: 请确认以下事项
+      description: 可多选，建议全选。
+      options:
+        - label: 我已阅读[文档](https://docs.openlist.org)。
+        - label: 我确定没有重复的issue或讨论。
+        - label: 我确定此功能尚未被实现。
+        - label: 我确定这是合理且有普遍需求的功能。
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 需求描述
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-solution
+    attributes:
+      label: 实现思路
+      description: |
+        实现此需求的解决思路。
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 附加信息
+      description: |
+        相关的任何其他上下文或截图，或者你觉得有帮助的信息
