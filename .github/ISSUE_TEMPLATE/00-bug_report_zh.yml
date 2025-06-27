@@ -29,6 +29,8 @@ body:
         - label: |
             我已确认是`OpenList`的问题，而不是其他原因（例如 [网络](https://docs.oplist.org/zh/faq/howto.html#tls-handshake-timeout-read-connection-reset-by-peer-dns-lookup-failed-connect-connection-refused-client-timeout-exceeded-while-awaiting-headers-no-such-host) ，`依赖`或`操作`）。
         - label: |
+            我认为此问题必须由`OpenList`处理，而非第三方。
+        - label: |
             我已确认这个问题在最新版本中没有被修复。
 
   - type: input

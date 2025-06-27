@@ -29,6 +29,8 @@ body:
         - label: |
             I confirm this is an `OpenList` issue, not caused by other reasons (such as [network](https://docs.oplist.org/faq/howto.html#tls-handshake-timeout-read-connection-reset-by-peer-dns-lookup-failed-connect-connection-refused-client-timeout-exceeded-while-awaiting-headers-no-such-host), dependencies, or operation).
         - label: |
+            I believe this issue must be handled by `OpenList` and not by a third party.
+        - label: |
             I confirm this issue is not fixed in the latest version.
 
   - type: input
