@@ -1,71 +1,74 @@
 name: "Bug report"
-description: Bug report
+description: Bug report / Issue
 title: "[BUG] "
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report, please **confirm that your issue is not a duplicate issue and not because of your operation or version issues**
+        Thank you for taking the time to fill out this bug report.
+        Please **make sure** your issue is not a duplicate and is not caused by your own operation, network, or third-party software.
 
   - type: checkboxes
     attributes:
-      label: Please make sure of the following things
+      label: Please confirm the following
       description: |
-        You must check all the following, otherwise your issue may be closed directly. Or you can go to the [discussions](https://github.com/OpenListTeam/OpenList/discussions)
+        You must check all the following, otherwise your issue may be closed directly. Or you can go to the [discussions](https://github.com/OpenListTeam/OpenList/discussions).
       options:
         - label: |
-            I have read the [documentation](https://docs.oplist.org).
+            I have read and agree to [AGPL-3.0 Section 15](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=15.%20Disclaimer%20of%20Warranty.) and [AGPL-3.0 Section 16](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=16.%20Limitation%20of%20Liability.).
         - label: |
-            I'm sure there are no duplicate issues or discussions.
+            I confirm my description is clear, polite, helps developers quickly locate the issue, and complies with community rules.
         - label: |
-            I'm sure it's due to `OpenList` and not something else(such as [Network](https://docs.oplist.org/faq/howto.html#tls-handshake-timeout-read-connection-reset-by-peer-dns-lookup-failed-connect-connection-refused-client-timeout-exceeded-while-awaiting-headers-no-such-host) ,`Dependencies` or `Operational`).
+            I have read the [OpenList documentation](https://docs.oplist.org).
         - label: |
-            I'm sure this issue is not fixed in the latest version.
+            I confirm there are no duplicate issues or discussions.
+        - label: |
+            I confirm this is an `OpenList` issue, not caused by other reasons (such as [network](https://docs.oplist.org/faq/howto.html#tls-handshake-timeout-read-connection-reset-by-peer-dns-lookup-failed-connect-connection-refused-client-timeout-exceeded-while-awaiting-headers-no-such-host), dependencies, or operation).
+        - label: |
+            I confirm this issue is not fixed in the latest version.
 
   - type: input
     id: version
     attributes:
-      label: OpenList Version
+      label: OpenList Version (required)
       description: |
-        What version of our software are you running? Do not use `latest` or `master` as an answer.
+        What version of the software are you using? Please do not use `latest` or `master` as the answer.
       placeholder: v4.xx.xx
     validations:
       required: true
   - type: input
     id: driver
     attributes:
-      label: Driver used
+      label: Storage Driver Used (required)
       description: |
-        What storage driver are you using?
-      placeholder: "for example: Onedrive"
+        Which storage driver are you using?
+      placeholder: "e.g. OneDrive"
     validations:
       required: true
   - type: textarea
     id: bug-description
     attributes:
-      label: Describe the bug
-    validations:
-      required: true
-  - type: textarea
-    id: reproduction
-    attributes:
-      label: Reproduction
-      description: |
-        Please provide a link to a repo that can reproduce the problem you ran into. Please be aware that your issue may be closed directly if you don't provide it.
+      label: Bug Description (required)
     validations:
       required: true
   - type: textarea
     id: config
     attributes:
-      label: Config
+      label: Configuration File Content (required)
       description: |
-        Please provide the configuration file of your `OpenList` application and take a screenshot of the relevant storage configuration. (you can mask sensitive fields)
+        Please provide your `OpenList` application's configuration file and a screenshot of the relevant storage configuration. (You may mask sensitive fields)
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Logs
+      label: Logs (optional)
       description: |
-        Please copy and paste any relevant log output.
+        Please copy and paste any relevant log output or screenshots. (You may mask sensitive fields)
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Link (optional)
+      description: |
+        Please provide a link to a repo or page that can reproduce this issue.
