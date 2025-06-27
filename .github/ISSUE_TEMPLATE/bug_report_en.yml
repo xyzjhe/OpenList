@@ -69,18 +69,18 @@ body:
   - type: input
     id: reproduction1
     attributes:
-      label: Reproduction Link (optional)
+      label: Reproduction Link 1 (optional)
       description: |
         Please provide a link to a repo or page that can reproduce this issue.
   - type: input
     id: reproduction2
     attributes:
-      label: Reproduction Link (optional)
+      label: Reproduction Link 2 (optional)
       description: |
         Please provide a link to a repo or page that can reproduce this issue.
   - type: input
     id: reproduction3
     attributes:
-      label: Reproduction Link (optional)
+      label: Reproduction Link 3 (optional)
       description: |
         Please provide a link to a repo or page that can reproduce this issue.
