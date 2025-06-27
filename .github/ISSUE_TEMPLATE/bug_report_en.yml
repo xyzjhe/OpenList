@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: Bug Report / Issue
-title: "[BUG] "
+title: "[BUG] Please modify the title to describe the issue you are facing"
 labels: [bug]
 body:
   - type: markdown
@@ -13,10 +13,13 @@ body:
     attributes:
       label: Please confirm the following
       description: |
-        You must check all the following, otherwise your issue may be closed directly. Or you can go to the [discussions](https://github.com/OpenListTeam/OpenList/discussions).
+        You must check all the following, otherwise your issue may be closed directly.
+        Or you can go to the [discussions](https://github.com/OpenListTeam/OpenList/discussions).
       options:
         - label: |
-            I have read and agree to [AGPL-3.0 Section 15](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=15.%20Disclaimer%20of%20Warranty.) and [AGPL-3.0 Section 16](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=16.%20Limitation%20of%20Liability.).
+            I have read and agree to [AGPL-3.0 Section 15](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=15.%20Disclaimer%20of%20Warranty.) .
+        - label: |
+            I have read and agree to [AGPL-3.0 Section 16](https://www.gnu.org/licenses/agpl-3.0.txt#:~:text=16.%20Limitation%20of%20Liability.) .
         - label: |
             I confirm my description is clear, polite, helps developers quickly locate the issue, and complies with community rules.
         - label: |
