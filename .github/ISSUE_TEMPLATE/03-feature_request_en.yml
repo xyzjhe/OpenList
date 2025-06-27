@@ -23,8 +23,6 @@ body:
         - label: |
             I believe this issue must be handled by `OpenList` and not by a third party.
         - label: |
-            I confirm there are no duplicate issues or discussions.
-        - label: |
             I confirm this feature has not been implemented yet.
         - label: |
             I confirm this feature is reasonable and has general demand, not just my personal need.
